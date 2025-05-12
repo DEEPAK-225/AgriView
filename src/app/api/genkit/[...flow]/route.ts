@@ -2,4 +2,4 @@
 import '@/ai/dev'; // Ensure flows are loaded
 import { appRoute } from '@genkit-ai/next';
 
-export const { GET, POST } = appRoute();
+// export const { GET, POST } = appRoute();
