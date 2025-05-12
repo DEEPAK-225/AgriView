@@ -1,0 +1,1 @@
+import '@/ai/flows/crop-suggestion.ts';
