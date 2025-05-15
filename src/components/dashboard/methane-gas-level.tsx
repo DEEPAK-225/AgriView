@@ -11,8 +11,8 @@ import { cn } from "@/lib/utils"; // Added
 
 export function MethaneGasLevel() {
   const { sensorData, loading: farmDataLoading, error: farmDataError } = useFarmData(); // Use hook
-  const [methaneLevel, setMethaneLevel] = useState(300); // Default to 0
-  const threshold = 10000; // ppm, example threshold
+  const [methaneLevel, setMethaneLevel] = useState(0); // Default to 0
+  const threshold = 50; // ppm, example threshold
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
